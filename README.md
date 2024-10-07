@@ -14,18 +14,22 @@
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Step 1: Note Your Current IP Address" width="80%">
+  <img src="https://github.com/user-attachments/assets/a519dbc6-ac93-4dd1-b44f-93eeb10849b7" alt="Step 1: Note Your Current IP Address" width="80%">
 </p>
+
+
 
 <p><strong>Step 2: Create a Resource Group and Virtual Machine</strong></p>
 <ul>
   <li>Next, I logged into the <a href="https://portal.azure.com/">Azure Portal</a> and created a new Resource Group to organize the resources for this lab.</li>
-  <li>After creating the Resource Group, I deployed a Windows 10 Virtual Machine (VM) in a different geographic location. I selected a location in a country other than where my actual machine is located (e.g., a different country).</li>
+  <li>After creating the Resource Group, I deployed a Windows 10 Virtual Machine </li>
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Step 2: Create a Resource Group and Virtual Machine" width="80%">
+  <img src="https://github.com/user-attachments/assets/6b7acb3f-2da0-4035-936b-47d8b37f097b" alt="Step 2: Create a Resource Group and Virtual Machine" width="80%">
 </p>
+
+
 
 <p><strong>Step 3: Log into the VM</strong></p>
 <ul>
@@ -33,8 +37,13 @@
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Step 3: Log into the VM" width="80%">
+  <img src="https://github.com/user-attachments/assets/1cfdccf1-875a-47f4-b258-7f3e91f6dcef" alt="Step 3: Log into the VM" width="80%">
 </p>
+
+
+
+
+
 
 <p><strong>Step 4: Note the VM's IP Address</strong></p>
 <ul>
@@ -42,8 +51,11 @@
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Step 4: Note the VM's IP Address" width="80%">
+  <img src="https://github.com/user-attachments/assets/2bed0e5c-908a-47df-bed5-78e860d3f9ed" alt="Step 4: Note the VM's IP Address" width="80%">
 </p>
+
+
+
 
 <h2>Part 2: Sign Up for ProtonVPN and Test the VPN Connection</h2>
 
@@ -53,8 +65,11 @@
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Step 5: Sign Up for ProtonVPN" width="80%">
+  <img src="https://github.com/user-attachments/assets/c999bd37-146f-4715-95ee-79ee19ef796a" alt="Step 5: Sign Up for ProtonVPN" width="80%">
 </p>
+
+
+
 
 <p><strong>Step 6: Download and Install ProtonVPN Client on the VM</strong></p>
 <ul>
@@ -63,27 +78,51 @@
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Step 6: Download and Install ProtonVPN Client" width="80%">
+  <img src="https://github.com/user-attachments/assets/542b79f6-b19d-4663-b114-ba1645b9ba04" alt="Step 6: Download and Install ProtonVPN Client" width="80%">
 </p>
+
+
 
 <p><strong>Step 7: Connect to a VPN Server in a Different Country</strong></p>
 <ul>
-  <li>After logging into ProtonVPN, I connected to a VPN server located in a third country (e.g., Japan).</li>
+  <li>After logging into ProtonVPN, I connected to a VPN server using quick connect.(Poland)</li>
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Step 7: Connect to a VPN Server in a Different Country" width="80%">
+  <img src="https://github.com/user-attachments/assets/f77474d1-0c60-4185-b222-e103ae754f93" alt="Step 7: Connect to a VPN Server in a Different Country" width="80%">
 </p>
+
+
 
 <p><strong>Step 8: Test the VPN Connection</strong></p>
 <ul>
   <li>While still in the VM, I browsed to <a href="https://whatismyipaddress.com/" target="_blank">https://whatismyipaddress.com/</a> again. The IP address was now different from both my actual machine's IP and the original IP of the VM, showing that the VPN was successfully masking my location.</li>
-  <li>I then browsed to websites like Google, Disney, and Amazon. I observed that the language or URLs sometimes changed to reflect the VPN server's location (e.g., google.co.jp for Japan).</li>
+  <li>I then browsed to websites like Google, Disney, and Amazon. I observed that the language or URLs sometimes changed to reflect the VPN server's location (e.g., google.co.pl for Poland).</li>
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Step 8: Test the VPN Connection" width="80%">
+  <img src="https://github.com/user-attachments/assets/22de2be1-3c8f-414a-832f-74ed3dab3883" alt="Step 8: Test the VPN Connection" width="80%">
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2371721b-66a6-46a0-b2c4-4d7ddf99acc8" alt="Step 8: Test the VPN Connection" width="80%">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/79e80a91-1d54-4034-a4c5-253eab93ae6f" alt="Step 8: Test the VPN Connection" width="80%">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/191a21f3-3844-4abc-8120-3a8fda68f797" alt="Step 8: Test the VPN Connection" width="80%">
+</p>
+
+
+
+
+
 
 <h2>Conclusion</h2>
 <p>In this lab, I successfully created a Virtual Machine in Azure, tested VPN connections using ProtonVPN, and observed how IP addresses and website behaviors changed based on different geographic locations. This hands-on experience helped me understand the impact of VPNs and geographic locations on network configurations and website accessibility.</p>
