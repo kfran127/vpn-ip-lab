@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/a9e62984-6877-41d3-b24c-25d0460b9005" alt="Microsoft Azure Banner">
 </p>
 
-<h1>Testing VPN and IP Address Differences in Azure VMs</h1>
+<h1>Setting up a VPN in a Azure VMs</h1>
 
 <p>In this lab, I set up a Virtual Machine (VM) in Azure, used ProtonVPN to test VPN connections, and analyzed how the IP addresses and website behaviors change based on different geographic locations.</p>
 
