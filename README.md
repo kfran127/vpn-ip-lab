@@ -97,7 +97,7 @@
 <p><strong>Step 8: Test the VPN Connection</strong></p>
 <ul>
   <li>While still in the VM, I browsed to <a href="https://whatismyipaddress.com/" target="_blank">https://whatismyipaddress.com/</a> again. The IP address was now different from both my actual machine's IP and the original IP of the VM, showing that the VPN was successfully masking my location.</li>
-  <li>I then browsed to websites like Google, Disney, and Amazon. I observed that the language or URLs sometimes changed to reflect the VPN server's location (e.g., google.co.pl for Poland).</li>
+  <li>I then browsed to websites like Google, Disney, and Amazon. I observed that the language or URLs sometimes changed to reflect the VPN server's location (google.pl for Poland).</li>
 </ul>
 
 <p align="center">
